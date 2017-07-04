@@ -1,0 +1,38 @@
+{% if page.layout == "post" %}
+  <div class="header container-fluid header-post">
+    <div class="scroll-progress-container">
+        <div class="scroll-progress"></div>
+    </div>
+{% else %}
+  <div class="header container-fluid">
+{% endif %}
+  <div class="navbar">
+    <div class="navbar-brand">
+      <a href="{{ site.baseurl }}">
+        {% include logo.html %}
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="title-wrapper col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1">
+
+      <h1 class="title text-white display-3">
+        {% if page.id == 'home' %}
+          {{ site.name }}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+      </h1>
+      <p class="lead">
+        {% if page.id == 'home' %}
+          {{ site.desc }}
+        {% else %}
+          {% include reading_time.html %} – category: {{ page.categories }}
+        {% endif %}
+      </p>
+
+
+    </div>
+  </div>
+</div>

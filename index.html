@@ -1,0 +1,23 @@
+---
+layout: base
+title: Dark Cryptonian - Blockachain, Coins, Wallets, Trading
+id: home
+---
+
+  <div class="posts col-lg-8 col-md-10 col-sm-12 offset-lg-2 offset-md-1">
+    {% for post in site.posts %}
+      <div class="post">
+        <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+        <p class="lead">
+          {{ post.show-paragraph }}
+        </p>
+      <div>
+    {% endfor %}
+  </div>
+
+  <!-- <div class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </div> -->

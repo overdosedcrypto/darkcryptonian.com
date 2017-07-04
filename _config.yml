@@ -1,0 +1,16 @@
+# Site settings
+name: Cryptocurrency blog
+desc: All things blockchain, tutorials, trader tips, coins and reviews.
+markdown: redcarpet
+highlighter: #
+baseurl: "/"
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+# Cryptos
+
+eth_address: "0x68b2638Fb3B1c5d5EA6d0d00d588C825E364Ed6f"
+etherscan_address: "https://etherscan.io/address/0x68b2638Fb3B1c5d5EA6d0d00d588C825E364Ed6f"
+
+sass:
+  sass_dir: _scss
+  style: compressed

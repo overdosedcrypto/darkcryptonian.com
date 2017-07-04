@@ -1,0 +1,43 @@
+.posts {
+  margin-top: -72px;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: $font-weight-light;
+  opacity: 0.73;
+}
+
+.post {
+  margin-top: 104px;
+  a {
+    color: #6644AB;
+  }
+  .post-title {
+    text-align: center;
+    &::before {
+      content: "";
+      display: block;
+      width: 96px;
+      margin: 0 auto;
+      height: 4px;
+      background: url(/assets/images/partials/post-separator.svg);
+      margin-bottom: 32px;
+    }
+  }
+  h2 {
+    margin-top: 64px;
+  }
+}
+
+.with-separator {
+  margin-bottom: 40px;
+  &::before {
+    content: "";
+    display: block;
+    width: 96px;
+    margin: 0 auto;
+    height: 4px;
+    background: url(/assets/images/partials/post-separator.svg);
+    margin-bottom: 32px;
+  }
+}
