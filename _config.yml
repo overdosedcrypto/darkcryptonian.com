@@ -3,7 +3,8 @@ name: Cryptocurrency blog
 desc: All things blockchain, tutorials, trader tips, coins and reviews.
 markdown: redcarpet
 highlighter: #
-baseurl: "/"
+url: "https://overdosedcrypto.github.io"
+baseurl: "/darkcryptonian.com"
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Cryptos
