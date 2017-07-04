@@ -4464,7 +4464,7 @@ Created using IcoMoon - icomoon.io
       width: 96px;
       margin: 0 auto;
       height: 4px;
-      background: url("../assets/images/partials/post-separator.svg");
+      background: url(../assets/images/partials/post-separator.svg);
       margin-bottom: 32px; }
   .post h2 {
     margin-top: 64px; }
@@ -4477,7 +4477,7 @@ Created using IcoMoon - icomoon.io
     width: 96px;
     margin: 0 auto;
     height: 4px;
-    background: url("../assets/images/partials/post-separator.svg");
+    background: url(../assets/images/partials/post-separator.svg);
     margin-bottom: 32px; }
 
 .footer {
