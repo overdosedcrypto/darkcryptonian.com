@@ -4498,6 +4498,16 @@ Created using IcoMoon - icomoon.io
     background-color: #CCCAD9;
     margin-bottom: 40px; }
 
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.5em !important; }
+  h2 {
+    font-size: 2em; }
+  h3 {
+    font-size: 1.75em; }
+  .lead {
+    font-size: 1.33em; } }
+
 html {
   margin: 0; }
 
